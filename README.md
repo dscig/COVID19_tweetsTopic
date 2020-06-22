@@ -46,39 +46,39 @@ Also, Below are the column names (features) and the corresponding descriptions o
 
 ```
 - id (type == int64): 
-- conversation_id (int64):
-- created_at (datetime64):
-- date (datetime64):
-- time (object):
-- timezone (object):
-- user_id (int64):
-- username (object):
-- name (object):
-- place (object):
-- tweet (object):
-- mentions (object):
-- urls (object):
-- photos (object):
-- replies_count (int64):
-- retweets_count (int64):
-- likes_count (int64):
-- hashtags (object):
-- cashtags (object):
-- link (object):
+- conversation_id (int64): 
+- created_at (datetime64): 
+- date (datetime64): 
+- time (object): 
+- timezone (object): 
+- user_id (int64): 
+- username (object): 
+- name (object): 
+- place (object): 
+- tweet (object): 
+- mentions (object): 
+- urls (object): 
+- photos (object): 
+- replies_count (int64): 
+- retweets_count (int64): 
+- likes_count (int64): 
+- hashtags (object): 
+- cashtags (object): 
+- link (object): 
 - retweet (bool): 
-- quote_url 
-- video (int64):
-- near (object):
-- geo (object):
-- source (object):
-- user_rt_ud (object):
-- user_rt (object):
-- retweet_id (object):
-- reply_to (object):
-- retweet_date (object):
-- translate (object):
-- trans_src (object):
-- trans_dest (object):
+- quote_url (object): 
+- video (int64): 
+- near (object): 
+- geo (object): 
+- source (object): 
+- user_rt_ud (object): 
+- user_rt (object): 
+- retweet_id (object): 
+- reply_to (object): 
+- retweet_date (object): 
+- translate (object): 
+- trans_src (object): 
+- trans_dest (object): 
 ```
 
 
