@@ -42,9 +42,44 @@ In particular, we have set up the following keywords/hashtags by country to craw
 - wuhan pneumonia: वूहान निमोनिया
 ```
 
-Also, Below are the column names of the dataset:
+Also, Below are the column names and the corresponding descriptions of the dataset:
 
-![](./image/twint_description.png)
+```
+- id (type == int64): 
+- conversation_id (int64):
+- created_at (datetime64):
+- date (datetime64):
+- time (object):
+- timezone (object):
+- user_id (int64):
+- username (object):
+- name (object):
+- place (object):
+- tweet (object):
+- mentions (object):
+- urls (object):
+- photos (object):
+- replies_count (int64):
+- retweets_count (int64):
+- likes_count (int64):
+- hashtags (object):
+- cashtags (object):
+- link (object):
+- retweet (bool): 
+- quote_url 
+- video (int64):
+- near (object):
+- geo (object):
+- source (object):
+- user_rt_ud (object):
+- user_rt (object):
+- retweet_id (object):
+- reply_to (object):
+- retweet_date (object):
+- translate (object):
+- trans_src (object):
+- trans_dest (object):
+```
 
 
 ### Pipeline
@@ -94,8 +129,8 @@ For deciding the phases, plese refer to the below code snippet:
 - "./code/.pdf"
 
 #### 3. Model Topics
-We have used the Tomotopy module (https://bab2min.github.io/tomotopy/v0.6.2/en/). plese refer to the below code snippet to find an example usage case:
-- "./code/.pdf" <br>
+We have used the Tomotopy module (https://bab2min.github.io/tomotopy/v0.6.2/en/). Please refer to the below code snippet to find an example usage case:
+- "./code/.pdf" <br> <br>
 
 
 Should you have any questions or comments, please contact us at the following email address: shaun.park@kaist.ac.kr.
