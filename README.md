@@ -17,16 +17,17 @@ Should you wish to get the raw dataset, please directly email to shaun.park@kais
 
 
 ### Pipeline
-![](./image/pipeline_topic_model.png)
+Please refer to the manuscript to find the detailed explanations for the below four modules.
 
-Please refer to the manuscript to find the detailed explanations for each module.
+![](./image/pipeline_topic_model.png)
 
 #### Required Packages
 The code has been tested running under Python 3.6.6. with the following packages installed (along with their dependencies):
 - numpy == 1.16.0
 - pandas == 0.23.4
 
-#### Pre-processing Data
+
+#### 1. Pre-processing Data
 For tweet pre-processing and tokenizing, please refer to the below files:
 - code snippet and explanation
 
@@ -51,10 +52,12 @@ We have used the below Hindi-specific stopwords and tokenizers.
 - tokenizing: utilized the 
 
 
-#### Decide Topical Phases
+#### 2. Decide Topical Phases
 For 
 
-#### Model Topics
+
+
+#### 3. Model Topics
 
 
 
