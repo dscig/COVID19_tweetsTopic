@@ -19,7 +19,7 @@ Should you wish to get the raw dataset that we have crawled, please directly con
 #### 2. Data Description
 The below table is the statistics of the crawled tweets.
 
-<img src="./image/stat_crawled_tweets.png" width="300">
+<img src="./image/stat_crawled_tweets.png" width="500">
 
 In particular, we have set up the following keywords/hashtags by country to crawl tweets related to COVID-19.
 
