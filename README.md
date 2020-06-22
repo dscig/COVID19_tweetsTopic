@@ -14,7 +14,7 @@ We have crawled the Twitter dataset by using the existing Twint Python library a
 Plese refer to the below code snippet to find an example usage case:
 - "./code/.pdf"
 
-Should you wish to get the raw dataset, please directly email to shaun.park@kaist.ac.kr for a detailed instruction. The below table is the statistics of the crawled tweets.
+Should you wish to get the raw dataset that we have crawled, please directly contact the author via shaun.park@kaist.ac.kr for a detailed instruction. The below table is the statistics of the crawled tweets.
 ![](./image/stat_crawled_tweets.png)
 
 In particular, we have set up the following keywords/hashtags by country to crawl tweets related to the COVID-19 pandemic issue.
