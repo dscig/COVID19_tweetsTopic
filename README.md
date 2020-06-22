@@ -22,7 +22,7 @@ Please refer to the manuscript to find the detailed explanations for the below f
 ![](./image/pipeline_topic_model.png)
 
 ```
-#### Required Packages
+[Required Packages]
 The code has been tested running under Python 3.6.6. with the following packages installed (along with their dependencies):
 - numpy == 1.16.0
 - pandas == 0.23.4
@@ -32,26 +32,27 @@ The code has been tested running under Python 3.6.6. with the following packages
 For tweet pre-processing and tokenizing, please refer to the below files:
 - code snippet and explanation
 
-##### South Korea
+```
+[South Korea]
 We have used the below Korean-specific stopwords and tokenizers.
 - pre-processing: find "./code/korean_stopwords.txt"
 - tokenizing: utilized the MeCab-Ko tokenizer (http://eunjeon.blogspot.com/)
 
-##### Iran
+[Iran]
 We have used the below Farsi-specific stopwords and tokenizers.
 - pre-processing: find "./code/farsi_stopwords.txt"
 - tokenizing: utilized the 
 
-##### Vietnam
+[Vietnam]
 We have used the below Vietnamese-specific stopwords and tokenizers.
 - pre-processing: find "./code/vietnamese_stopwords.txt"
 - tokenizing: utilized the 
 
-##### India
+[India]
 We have used the below Hindi-specific stopwords and tokenizers.
 - pre-processing: find "./code/hindi_stopwords.txt"
 - tokenizing: utilized the 
-
+```
 
 #### 2. Decide Topical Phases
 For 
