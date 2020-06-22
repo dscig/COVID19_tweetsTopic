@@ -1,10 +1,10 @@
 # Risk Communication in Asian Countries: COVID-19 Discourse on Twitter
-Implementation details including codes in Python. You can find the orignal paper "Risk Communication in Asian Countries: COVID-19 Discourse on Twitter" at the following link: http://arxiv.org/.
+Implementation details including codes in Python. You can find the orignal paper "Risk Communication in Asian Countries: COVID-19 Discourse on Twitter" at the following link: http://arxiv.org/xxxx.
 
 ##### Please cite as:
 Park S, Han S, Kim J, Molaie MM, Vu HD, Singh K, Han J, Lee W, Cha M <br>
 Risk Communication in Asian Countries: COVID-19 Discourse on Twitter <br>
-arXiv preprint arXiv:2020.XXXX, 2020.
+arXiv preprint arXiv:2020.XXXX, 2020. <br>
 
 
 ### Data
@@ -17,17 +17,42 @@ Should you wish to get the raw dataset, please directly email to shaun.park@kais
 
 
 ### Pipeline
+![](./image/pipeline_topic_model.png)
+
 Please refer to the manuscript to find the detailed explanations for each module.
 
-#### Preproessing Data
+#### Required Packages
+The code has been tested running under Python 3.6.6. with the following packages installed (along with their dependencies):
+- numpy == 1.16.0
+- pandas == 0.23.4
 
+#### Pre-processing Data
+For tweet pre-processing and tokenizing, please refer to the below files:
+- code snippet and explanation
 
+##### South Korea
+We have used the below Korean-specific stopwords and tokenizers.
+- pre-processing: find "./code/korean_stopwords.txt"
+- tokenizing: utilized the MeCab-Ko tokenizer (http://eunjeon.blogspot.com/)
+
+##### Iran
+We have used the below Farsi-specific stopwords and tokenizers.
+- pre-processing: find "./code/farsi_stopwords.txt"
+- tokenizing: utilized the 
+
+##### Vietnam
+We have used the below Vietnamese-specific stopwords and tokenizers.
+- pre-processing: find "./code/vietnamese_stopwords.txt"
+- tokenizing: utilized the 
+
+##### India
+We have used the below Hindi-specific stopwords and tokenizers.
+- pre-processing: find "./code/hindi_stopwords.txt"
+- tokenizing: utilized the 
 
 
 #### Decide Topical Phases
-
-
-
+For 
 
 #### Model Topics
 
@@ -50,12 +75,8 @@ Please refer to the manuscript to find the detailed explanations for each module
 #### The latent variables via CAE dataset
 Another one ("Saved_latent.csv") is for providing the latent variables extracted via Covolutional Autoencoder (CAE). The latent variables were the result of minimizing L2-norm regularized reconstruction loss (L) between the original image (𝑦) and the reconstructed image (𝑦^) for 1,470 images (𝑛 = 1470) on the CAE (see the below formular for the loss function).
 
-![](./image/pipeline_topic_model.png)
 
 The features included in the dataset are as follows.
-
-![](./image/LV_CAE.PNG)
-
 
 ### Required packages
 The code has been tested running under Python 3.6.6. with the following packages installed (along with their dependencies):
@@ -94,4 +115,4 @@ the input size dimensions (ie, 8×12 → 15) by learning the vital latent repres
 ![](./image/CAE_result_example.jpg)
 
 
-Should you have any questions or comments, please contact us at the following email address: shaun.park@kaist.ac.kr
+Should you have any questions or comments, please contact us at the following email address: shaun.park@kaist.ac.kr.
