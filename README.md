@@ -15,6 +15,7 @@ Plese refer to the below code snippet to find an example usage case:
 - "./code/.pdf"
 
 Should you wish to get the raw dataset that we have crawled, please directly contact the author via shaun.park@kaist.ac.kr for a detailed instruction. The below table is the statistics of the crawled tweets.
+
 ![](./image/stat_crawled_tweets.png)
 
 In particular, we have set up the following keywords/hashtags by country to crawl tweets related to COVID-19.
@@ -41,12 +42,14 @@ In particular, we have set up the following keywords/hashtags by country to craw
 - wuhan pneumonia: वूहान निमोनिया
 ```
 
-Also, Below are the column names of the dataset: <br>
+Also, Below are the column names of the dataset:
+
 ![](./image/twint_description.png)
 
 
 ### Pipeline
 Please refer to the manuscript to find the detailed explanations for the below four modules.
+
 ![](./image/pipeline_topic_model.png)
 
 ```
