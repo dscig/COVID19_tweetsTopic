@@ -15,37 +15,38 @@ Plese refer to the below code snippet to find an example usage case:
 - "./code/.pdf"
 
 Should you wish to get the raw dataset, please directly email to shaun.park@kaist.ac.kr for a detailed instruction. The below table is the statistics of the crawled tweets.
-
 ![](./image/stat_crawled_tweets.png)
 
 In particular, we have used the following keywords/hashtags to crawl tweets related to the COVID-19 pandemic issue.
 
 ```
 [South Korea]
-- 
-- 
+- corona: 코로나
+- wuhan pneumonia: 우한 폐렴
 
 [Iran]
-- 
-- 
+- corona: #کرونا
+- coronavirus: #کروناویروس
+- wuhan: #ووهان
+- pneumonia: #سینه‌پهلو
 
 [Vietnam]
-- 
-- 
+- corona
+- n-cov
+- covid
+- acute pneumonia: viêm phổi cấp
 
 [India]
-- 
-- 
+- corona: कोरोना
+- wuhan pneumonia: वूहान निमोनिया
 ```
 
 Also, Below are the column names of the dataset:
-
 ![](./image/twint_description.png)
 
 
 ### Pipeline
 Please refer to the manuscript to find the detailed explanations for the below four modules.
-
 ![](./image/pipeline_topic_model.png)
 
 ```
@@ -91,7 +92,7 @@ For deciding the phases, plese refer to the below code snippet:
 
 #### 3. Model Topics
 We have used the Tomotopy module (https://bab2min.github.io/tomotopy/v0.6.2/en/). plese refer to the below code snippet to find an example usage case:
-- "./code/.pdf"
+- "./code/.pdf" <br>
 
 
 Should you have any questions or comments, please contact us at the following email address: shaun.park@kaist.ac.kr.
