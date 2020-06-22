@@ -8,13 +8,16 @@ arXiv preprint arXiv:2020.XXXX, 2020. <br>
 
 
 ### Data
-#### The raw dataset
+#### The Raw Dataset
 We have crawled the Twitter dataset by using the existing Twint Python library and Twitter search APIs. The Twint Python library is an advance twitter scraping tool, written in Python. The detailed information about the scraper is explained at https://github.com/twintproject/twint.
 
 Plese refer to the below code snippet to find an example usage case:
 - "./code/.pdf"
 
-Should you wish to get the raw dataset that we have crawled, please directly contact the author via shaun.park@kaist.ac.kr for a detailed instruction. The below table is the statistics of the crawled tweets.
+Should you wish to get the raw dataset that we have crawled, please directly contact the author via shaun.park@kaist.ac.kr for a detailed instruction.
+
+#### Data Description
+The below table is the statistics of the crawled tweets.
 
 ![](./image/stat_crawled_tweets.png)
 
