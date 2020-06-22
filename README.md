@@ -103,7 +103,7 @@ For the detailed tweet pre-processing and tokenizing process, please refer to th
 We have used the below Korean-specific stopwords and tokenizers.
 - pre-processing: find "./code/korean_stopwords.txt"
 - tokenizing: utilized the MeCab-Ko tokenizer (http://eunjeon.blogspot.com/)
-- Please refer to the below code snippet to find an example usage case: "./code/.pdf"
+- Please refer to the following code snippet file to find an example usage case: "./code/.pdf"
 
 [Iran]
 We have used the below Farsi-specific stopwords and tokenizers.
