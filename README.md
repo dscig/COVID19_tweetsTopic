@@ -1,20 +1,20 @@
 # Risk Communication in Asian Countries: COVID-19 Discourse on Twitter
-Implementation details including codes in Python
-
-Tensorflow and datasets from wearable devices, Fitbit Charge 2. You can find the orignal paper "Clustering Insomnia Patterns by Data From Wearable Devices: Algorithm Development and Validation Study" at the following link: .
+Implementation details including codes in Python. You can find the orignal paper "Risk Communication in Asian Countries: COVID-19 Discourse on Twitter" at the following link: .
 ##### Please cite as:
-Park S, Lee SW, Han S, Cha M <br>
-Clustering Insomnia Patterns by Data From Wearable Devices: Algorithm Development and Validation Study <br>
-JMIR Mhealth Uhealth 2019;7(12):e14473 <br>
-DOI: 10.2196/14473 <br>
-PMID: 31804187 <br>
+Park S, Han S, Kim J, Molaie MM, Vu HD, Singh K, Han J, Lee W, Cha M <br>
+Risk Communication in Asian Countries: COVID-19 Discourse on Twitter <br>
+arXiv preprint arXiv:2020.XXXX, 2020. <br>
 
 
 ### Data
 #### The raw dataset
+Please 
+
+
+
 You can find two datasets in the sub-directory named "data". One is for providing the raw data retrieved from the Fitbit Charge 2 device ("Data.csv"). Each row represents daily abstraced values of features for each subject. There are total of 42 subjects; all subjects are anonymized and userIds are randomly assigned for each subject. The features included in the dataset are as follows. One remark is that for the rows related to the naps, all the sleep-related daily abstract features were assigned as "-1", since those features are calculted soley for the one main sleep per day.
 
-![](./image/raw.PNG)
+![](./image/twint_description.png)
 
 #### The latent variables via CAE dataset
 Another one ("Saved_latent.csv") is for providing the latent variables extracted via Covolutional Autoencoder (CAE). The latent variables were the result of minimizing L2-norm regularized reconstruction loss (L) between the original image (𝑦) and the reconstructed image (𝑦^) for 1,470 images (𝑛 = 1470) on the CAE (see the below formular for the loss function).
