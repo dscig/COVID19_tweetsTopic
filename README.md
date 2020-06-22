@@ -1,24 +1,19 @@
 # Risk Communication in Asian Countries: COVID-19 Discourse on Twitter
-Implementation details including codes in Python. You can find the orignal paper "Risk Communication in Asian Countries: COVID-19 Discourse on Twitter" at the following link: .
+Implementation details including codes in Python. You can find the orignal paper "Risk Communication in Asian Countries: COVID-19 Discourse on Twitter" at the following link: http://arxiv.org/.
+
 ##### Please cite as:
 Park S, Han S, Kim J, Molaie MM, Vu HD, Singh K, Han J, Lee W, Cha M <br>
 Risk Communication in Asian Countries: COVID-19 Discourse on Twitter <br>
-arXiv preprint arXiv:2020.XXXX, 2020. <br>
+arXiv preprint arXiv:2020.XXXX, 2020.
 
 
 ### Data
 #### The raw dataset
-Should you wish to get the raw 
+We have crawled the Twitter dataset by using the existing Twint Python library and Twitter search APIs. The Twint Python library is an advance twitter scraping tool, written in Python. The detailed information about the scraper is explained at https://github.com/twintproject/twint.
 
-Please email to shaun.park@kaist.ac.kr 
-
-
-
-You can find two datasets in the sub-directory named "data". One is for providing the raw data retrieved from the Fitbit Charge 2 device ("Data.csv"). Each row represents daily abstraced values of features for each subject. There are total of 42 subjects; all subjects are anonymized and userIds are randomly assigned for each subject. The features included in the dataset are as follows. One remark is that for the rows related to the naps, all the sleep-related daily abstract features were assigned as "-1", since those features are calculted soley for the one main sleep per day.
+Should you wish to get the raw dataset, please directly email to shaun.park@kaist.ac.kr for a detailed instruction. Below are the column names of the dataset:
 
 ![](./image/twint_description.png)
-
-
 
 
 ### Pipeline
