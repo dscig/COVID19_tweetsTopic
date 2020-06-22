@@ -2,7 +2,7 @@
 Implementation details including codes in Python. You can find the orignal paper "Risk Communication in Asian Countries: COVID-19 Discourse on Twitter" at the following link: http://arxiv.org/xxxx.
 
 ##### Please cite as:
-Park S, Han S, Kim J, Molaie MM, Vu HD, Singh K, Han J, Lee W, Cha M <br>
+Park S, Han S, Kim J, Molaie MM, Vu HD, Singh K, Han J, Lee W, and Cha M <br>
 Risk Communication in Asian Countries: COVID-19 Discourse on Twitter <br>
 arXiv preprint arXiv:2020.XXXX, 2020. <br>
 
