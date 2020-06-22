@@ -18,10 +18,44 @@ You can find two datasets in the sub-directory named "data". One is for providin
 
 ![](./image/twint_description.png)
 
+
+
+
+### Pipeline
+Please refer to the manuscript to find the detailed explanations for each module.
+
+#### Preproessing Data
+
+
+
+
+#### Decide Topical Phases
+
+
+
+
+#### Model Topics
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#
+##
+###
 #### The latent variables via CAE dataset
 Another one ("Saved_latent.csv") is for providing the latent variables extracted via Covolutional Autoencoder (CAE). The latent variables were the result of minimizing L2-norm regularized reconstruction loss (L) between the original image (𝑦) and the reconstructed image (𝑦^) for 1,470 images (𝑛 = 1470) on the CAE (see the below formular for the loss function).
 
-![](./image/pipeline_topic_model.pdf)
+![](./image/pipeline_topic_model.png)
 
 The features included in the dataset are as follows.
 
