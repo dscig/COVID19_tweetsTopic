@@ -17,7 +17,7 @@ Plese refer to the below code snippet to find an example usage case:
 Should you wish to get the raw dataset, please directly email to shaun.park@kaist.ac.kr for a detailed instruction. The below table is the statistics of the crawled tweets.
 ![](./image/stat_crawled_tweets.png)
 
-In particular, we have used the following keywords/hashtags to crawl tweets related to the COVID-19 pandemic issue.
+In particular, we have set up the following keywords/hashtags by country to crawl tweets related to the COVID-19 pandemic issue.
 
 ```
 [South Korea]
