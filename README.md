@@ -88,7 +88,7 @@ Please refer to the manuscript to find the detailed explanations for the below f
 ![](./image/pipeline_topic_model.png)
 
 ```
-[Required Packages]
+[Required Basic Packages]
 The code has been tested running under Python 3.6.6. with the following packages installed (along with their dependencies):
 - numpy == 1.16.0
 - pandas == 0.23.4
