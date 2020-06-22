@@ -42,7 +42,7 @@ In particular, we have set up the following keywords/hashtags by country to craw
 - wuhan pneumonia: वूहान निमोनिया
 ```
 
-Also, Below are the column names and the corresponding descriptions of the dataset:
+Also, Below are the column names (features) and the corresponding descriptions of the dataset:
 
 ```
 - id (type == int64): 
