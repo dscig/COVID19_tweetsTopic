@@ -1,6 +1,7 @@
-# Clustering Insomnia Patterns by Data From Wearable Devices: Algorithm Development and Validation Study
-Implementation details including codes in Tensorflow and datasets from wearable devices, Fitbit Charge 2. You can find the orignal paper "Clustering Insomnia Patterns by Data From Wearable Devices: Algorithm Development and Validation Study" at the following link: https://mhealth.jmir.org/2019/12/e14473/.
+# Risk Communication in Asian Countries: COVID-19 Discourse on Twitter
+Implementation details including codes in Python
 
+Tensorflow and datasets from wearable devices, Fitbit Charge 2. You can find the orignal paper "Clustering Insomnia Patterns by Data From Wearable Devices: Algorithm Development and Validation Study" at the following link: .
 ##### Please cite as:
 Park S, Lee SW, Han S, Cha M <br>
 Clustering Insomnia Patterns by Data From Wearable Devices: Algorithm Development and Validation Study <br>
