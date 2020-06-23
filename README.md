@@ -48,40 +48,39 @@ In particular, we have set up the following keywords/hashtags by country to craw
 Also, Below are the column names (features) and the corresponding descriptions of the dataset:
 
 ```
-- id (type == int64): 
-- conversation_id (int64): 
-- created_at (datetime64): 
-- date (datetime64): 
-- time (object): 
-- timezone (object): 
-- user_id (int64): 
-- username (object): 
-- name (object): 
-- place (object): 
-- tweet (object): 
-- mentions (object): 
-- urls (object): 
-- photos (object): 
-- replies_count (int64): 
-- retweets_count (int64): 
-- likes_count (int64): 
-- hashtags (object): 
-- cashtags (object): 
-- link (object): 
-- retweet (bool): 
-- quote_url (object): 
-- video (int64): 
-- near (object): 
-- geo (object): 
-- source (object): 
-- user_rt_ud (object): 
+- id (type == int64): The integer representation of the unique identifier for this Tweet
+- conversation_id (int64): The Tweet ID of the conversation tree’s root
+- created_at (datetime64): UTC time when this Tweet was created
+- date (datetime64): UTC time formatted YYYY-MM-DD
+- time (object): UTC time formatted h:m:s
+- timezone (object): Timezone
+- user_id (int64): The integer representation of the unique identifier for this User
+- username (object): The screen name, handle, or alias that this user identifies themselves with
+- name (object): The name of the user, as they’ve defined it
+- place (object): Nullable When present, indicates that the tweet is associated (but not necessarily originating from) a Place
+- tweet (object): The actual UTF-8 text of the status update
+- mentions (object): Represents other Twitter users mentioned in the text of the Tweet
+- urls (object): Represents URLs included in the text of a Tweet
+- photos (object): Represents photo elements uploaded with the Tweet
+- replies_count (int64): Number of times this Tweet has been replied to
+- retweets_count (int64): Number of times this Tweet has been retweeted
+- likes_count (int64): Nullable. Indicates approximately how many times this Tweet has been liked by Twitter users
+- hashtags (object): Represents hashtags which have been parsed out of the Tweet text
+- cashtags (object): ?
+- retweet (bool): Indicates whether this Tweet has been Retweeted by the authenticating user
+- quote_url (object): ?
+- video (int64): The number of video elements uploaded with the Tweet
+- near (object): ?
+- geo (object): Nullable. Represents the geographic location of this Tweet as reported by the user or client application
+- source (object): Utility used to post the Tweet, as an HTML-formatted string
+- user_rt_id (object): 
 - user_rt (object): 
 - retweet_id (object): 
 - reply_to (object): 
 - retweet_date (object): 
 - translate (object): 
-- trans_src (object): 
-- trans_dest (object): 
+- trans_src (object): ?
+- trans_dest (object): ?
 ```
 
 
