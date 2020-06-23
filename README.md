@@ -1,5 +1,5 @@
 # Risk Communication in Asian Countries: <br> COVID-19 Discourse on Twitter
-Implementation details including codes in Python. You can find the orignal paper "Risk Communication in Asian Countries: COVID-19 Discourse on Twitter" at the following link: http://arxiv.org/xxxx.
+Implementation details including codes in Python. You can find the orignal paper "Risk Communication in Asian Countries: COVID-19 Discourse on Twitter" at the following link: https://arxiv.org/abs/2006.12218.
 
 ##### Please cite as:
 Park S, Han S, Kim J, Molaie MM, Vu HD, Singh K, Han J, Lee W, and Cha M <br>
