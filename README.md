@@ -107,7 +107,9 @@ For the detailed tweet pre-processing and tokenizing process, please refer to th
 ```
 [South Korea]
 We have used the below Korean-specific stopwords and tokenizers.
-- pre-processing: find "./code/korean_stopwords.txt"
+- pre-processing
+  - Text Cleaning: Remove special characters and URLs  
+  - Stopwords: find "./code/korean_stopwords.txt"
 - tokenizing: utilized the MeCab-Ko tokenizer (http://eunjeon.blogspot.com/)
 - Please refer to the following code snippet file to find an example usage case: "./code/.pdf"
 
