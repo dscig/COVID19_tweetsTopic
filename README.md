@@ -66,17 +66,18 @@ Also, Below are the column names (features) and the corresponding descriptions o
 - retweets_count (int64): Number of times this Tweet has been retweeted
 - likes_count (int64): Nullable. Indicates approximately how many times this Tweet has been liked by Twitter users
 - hashtags (object): Represents hashtags which have been parsed out of the Tweet text
-- cashtags (object): Not applicable (Not provided by the offical Twitter search APIs)
-- quote_url (object): Not applicable (Not provided by the offical Twitter search APIs)
 - video (int64): The number of video elements uploaded with the Tweet
-- near (object): Not applicable (Not provided by the offical Twitter search APIs)
 - geo (object): Nullable. Represents the geographic location of this Tweet as reported by the user or client application
 - source (object): Utility used to post the Tweet, as an HTML-formatted string
 - reply_to (object): Reply infos containing user_id and username
 ```
-Deprecated Attributes
+
+Deprecated Attributes:
 
 ```
+- cashtags (object)
+- quote_url (object)
+- near (object)
 - retweet (bool)
 - user_rt_id (object) 
 - user_rt (object)
