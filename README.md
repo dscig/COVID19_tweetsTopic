@@ -109,25 +109,28 @@ For the detailed tweet pre-processing and tokenizing process, please refer to th
 [South Korea]
 We have used the below Korean-specific stopwords and tokenizers.
 - pre-processing
-  - Text Cleaning: Remove special characters and URLs  
-  - Stopwords: find "./code/korean_stopwords.txt"
+  - text cleaning: removed special characters and URLs  
+  - stopwords: find "./code/korean_stopwords.txt"
 - tokenizing: utilized the MeCab-Ko tokenizer (http://eunjeon.blogspot.com/)
 - Please refer to the following code snippet file to find an example usage case: "./code/code_Korean_tokenize_sentences.pdf"
 
 [Iran]
 We have used the below Farsi-specific stopwords and tokenizers.
 - pre-processing: find "./code/farsi_stopwords.txt"
-- tokenizing: utilized the 
+- tokenizing: TBD
 
 [Vietnam]
 We have used the below Vietnamese-specific stopwords and tokenizers.
-- pre-processing: find "./code/vietnamese_stopwords.txt"
-- tokenizing: utilized the 
+- pre-processing
+  - text cleaning: removed special characters and URLs  
+  - stopwords: find "./code/vietnamese_stopwords.txt"
+- tokenizing: utilized the Pyvi tokenizer (http://eunjeon.blogspot.com/)
+- Please refer to the following code snippet file to find an example usage case: "./code/code_Vietnamese_tokenize_sentences.pdf
 
 [India]
 We have used the below Hindi-specific stopwords and tokenizers.
 - pre-processing: find "./code/hindi_stopwords.txt"
-- tokenizing: utilized the 
+- tokenizing: TBD
 ```
 
 #### 2. Decide Topical Phases
