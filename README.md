@@ -124,7 +124,7 @@ We have used the below Vietnamese-specific stopwords and tokenizers.
 - pre-processing
   - text cleaning: removed special characters and URLs  
   - stopwords: find "./code/vietnamese_stopwords.txt"
-- tokenizing: utilized the Pyvi tokenizer (http://eunjeon.blogspot.com/)
+- tokenizing: utilized the Pyvi tokenizer (https://github.com/trungtv/pyvi)
 - Please refer to the following code snippet file to find an example usage case: "./code/code_Vietnamese_tokenize_sentences.pdf
 
 [India]
