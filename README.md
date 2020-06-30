@@ -116,8 +116,11 @@ We have used the below Korean-specific stopwords and tokenizers.
 
 [Iran]
 We have used the below Farsi-specific stopwords and tokenizers.
-- pre-processing: find "./code/farsi_stopwords.txt"
-- tokenizing: TBD
+- pre-processing
+  - text cleaning: removed special characters and URLs
+  - stopwords: find "./code/farsi_stopwords.txt"
+- tokenizing: utilized the Parsivar tokenizer (https://github.com/ICTRC/Parsivar)
+- Please refer to the following code snippet file to find an example usage case: "./code/code_Farsi_tokenize_sentences.pdf"
 
 [Vietnam]
 We have used the below Vietnamese-specific stopwords and tokenizers.
