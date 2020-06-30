@@ -148,7 +148,7 @@ We have used the Tomotopy module (https://bab2min.github.io/tomotopy/v0.6.2/en/)
 - "./code/code_topic_modeling.pdf" <br> <br>
 
 
-Should you have any questions or comments, please contact us at the following email address: shaun.park@kaist.ac.kr.
+Should you have any questions or comments, please contact us at the following email address: shaun.park@kaist.ac.kr. <br> <br>
 
 
 < end of document >
