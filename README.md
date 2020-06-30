@@ -120,7 +120,7 @@ We have used the below Farsi-specific stopwords and tokenizers.
   - text cleaning: removed special characters and URLs
   - stopwords: find "./code/farsi_stopwords.txt"
 - tokenizing: utilized the Parsivar tokenizer (https://github.com/ICTRC/Parsivar)
-- Please refer to the following code snippet file to find an example usage case: "./code/code_Farsi_tokenize_sentences.pdf"
+- Please refer to the following code snippet file to find an example usage case: "./code/code_Persian_tokenize_sentences.py"
 
 [Vietnam]
 We have used the below Vietnamese-specific stopwords and tokenizers.
@@ -128,7 +128,7 @@ We have used the below Vietnamese-specific stopwords and tokenizers.
   - text cleaning: removed special characters and URLs  
   - stopwords: find "./code/vietnamese_stopwords.txt"
 - tokenizing: utilized the Pyvi tokenizer (https://github.com/trungtv/pyvi)
-- Please refer to the following code snippet file to find an example usage case: "./code/code_Vietnamese_tokenize_sentences.pdf
+- Please refer to the following code snippet file to find an example usage case: "./code/code_Vietnamese_tokenize_sentences.pdf"
 
 [India]
 We have used the below Hindi-specific stopwords and tokenizers.
