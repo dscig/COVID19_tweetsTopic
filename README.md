@@ -132,7 +132,9 @@ We have used the below Vietnamese-specific stopwords and tokenizers.
 
 [India]
 We have used the below Hindi-specific stopwords and tokenizers.
-- pre-processing: find "./code/hindi_stopwords.txt"
+- pre-processing
+  - text cleaning: removed special characters, non-Hindi characters, and URLs
+  - stopwords: find "./code/hindi_stopwords.txt"
 - tokenizing: TBD
 ```
 
