@@ -102,7 +102,7 @@ The code has been tested running under Python 3.6.6. with the following packages
 ```
 
 #### 1. Pre-processing Data
-For the detailed tweet pre-processing and tokenizing process, please refer to the below file including code snippet and correponding explanation:
+For the detailed tweet pre-processing and tokenizing process, please refer to the below file including code snippet and corresponding explanation:
 - "./code/code_text_preprocessing_tokenization.pdf"
 
 ```
