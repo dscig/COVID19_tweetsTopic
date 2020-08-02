@@ -139,7 +139,7 @@ We have used the below Hindi-specific stopwords and tokenizers.
 ```
 
 #### 2. Decide Topical Phases
-For spliting topical phases, plese refer to the below code snippet:
+For splitting topical phases, plese refer to the below code snippet:
 - "./code/code_split_phases.pdf"
 
 For deciding the phases, plese refer to the below code snippet:
